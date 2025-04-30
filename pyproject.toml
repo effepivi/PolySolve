@@ -11,7 +11,7 @@ description = "Summary of the project here"
 license = {text = "Apache"}
 
 keywords = ["keyword1","keyword2"]
-dependencies = ["numpy"]
+dependencies = ["numpy", "pytest"]
 #classifiers = [...]
 dynamic = ["version"]
 
