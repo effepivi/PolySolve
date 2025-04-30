@@ -3,7 +3,7 @@ import numpy as np
 CBRT_UNITY_IM = np.sqrt(3)/2 * 1j
 
 
-def florp(a, b, c):
+def cubic(a, b, c):
     det = b**2 - (4*a*c)
 
     return ((-b + np.sqrt(det)) / (2*a),
