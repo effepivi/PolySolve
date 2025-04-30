@@ -16,8 +16,11 @@ dependencies = ["numpy"]
 dynamic = ["version"]
 
 [project.urls]
-Homepage="https://github.com/effepivi/polysolve"
-Repository="https://github.com/effepivi/polysolve.git"
+Homepage = "https://github.com/effepivi/polysolve"
+Repository = "https://github.com/effepivi/polysolve.git"
+
+[project.optional-dependencies]
+docs = ["sphinx", "sphinx_rtd_theme", "sphinx_autodoc_typehints"]
 
 [tool.setuptools.dynamic]
 version = {attr = "polysolve.__version__"}
